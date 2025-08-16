@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* background-color: rgb(252, 252, 252);*/
+     background-image: url("alfa.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 178, 126);
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(179, 178, 129);
+}
